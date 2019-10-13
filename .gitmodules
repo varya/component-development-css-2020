@@ -10,3 +10,6 @@
 [submodule "themes/ig"]
 	path = themes/ig
 	url = https://github.com/varya/shower-ig.git
+[submodule "themes/varya"]
+	path = themes/varya
+	url = https://github.com/varya/shower-varya.git

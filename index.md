@@ -4,32 +4,59 @@ layout: ig
 
 style: |
 
-    #custom {
-      background: black;
-      padding-top: 0;
-    }
-    #custom h2 {
-      color: yellow;
-      margin-top: 70px;
-    }
+    #Cover h2 {
+        margin:30px 0 0;
+        color:#FFF;
+        text-align:center;
+        font-size:70px;
+        }
+    #Cover p {
+        margin:10px 0 0;
+        text-align:center;
+        font-size:20px;
+        }
+    #Picture h2 {
+        color:#FFF;
+        }
+    #SeeMore h2 {
+        font-size:100px
+        }
+    #SeeMore img {
+        width:0.72em;
+        height:0.72em;
+        }
 
+
+    .slide--center {
+      text-align: center;
+    }
+    .slide--center .slide__content {
+      text-align: justify;
+    }
     .no-title h2 {
       display: none;
+    }
+
+    .slide .relevant-link {
+      font-size: 0.5em;
+      position: absolute;
+      bottom: 25px;
+      margin-bottom: 0.25em;
+    }
+
+    .slide .quadruple {
+      column-count: 4;
     }
 
     .code--size--m {
       font-size: 0.8em;
     }
-    .slide .small {
-      font-size: 50%;
-    }
 ---
 
-# Component development with CSS in 2018 {#cover}
+# Component development with CSS in 2019 {#cover}
 
-Varya Stepanova, <span class="position">Design Systems Specialist<br/>
-at Intergalactio - Nordcloud Design Studio</span>
-{:.author}
+<b>Varya Stepanova</b>, Design Systems Expert / [varya.me](http://varya.me) & [wonna.fi](http://wonna.fi)
+{: .author }
 
 
 ## Me
@@ -37,14 +64,89 @@ at Intergalactio - Nordcloud Design Studio</span>
 
 ![](pictures/me.jpg){: .photo }
 
-### Now
-Design Systems Specialist<br/> at Intergalactico <sub class="small">Nordcloud Design Studio</sub>
+### Varya Stepanova
+<b>Design Systems Expert</b><br/>
 
-### Before
-TMG (Amsterdam, the Netherlands); Yandex&nbsp;(Moscow,&nbsp;Russia)
+* Design systems
+* UI libraries
+* Frontend development
+{: .above }
 
-### Area of expertise
-Components on the web: design systems, pattern libraries, SGDD, BEM. Techs: CSS, JavaScript, etc.
+- Design operations
+- Research-driven project vision and strategy
+- Cultivating a thriving design & development community
+- Facilitating collaboration between teams
+- Setting up effective processes and practices
+- Coaching and training
+- Automating the routines
+{: .below }
+
+
+[@varya_en](https://twitter.com/varya_en){: .twitter } /
+[varya.me](http://varya.me) & [wonna.fi](http://wonna.fi) /
+[mail@varya.me](mailto:mail@varya.me)
+{: .contacts }
+
+<style>
+.about-me p,
+.about-me .above,
+.about-me .below {
+  font-size: 70%;
+}
+
+.about-me .above li,
+.about-me .below li {
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+}
+
+.about-me .above li:before,
+.about-me .below li:before {
+  left: 250px;
+  line-height: 1.75em;
+}
+
+.about-me .iceberg {
+  float: left;
+  width: 300px;
+  margin-top: 115px;
+  margin-bottom: 6em;
+  margin-right: 2em;
+}
+
+.about-me h4 {
+  color: #ca4e1f;
+  font: 1em/1 'FF Meta Serif',sans-serif;
+  margin-bottom: .5em;
+}
+.about-me b {
+  font-size: 1.25em;
+}
+
+.about-me .contacts {
+  line-height: 1;
+  font-size: 0.75em;
+}
+
+.about-me .twitter
+{
+  text-decoration: none;
+  color: currentColor;
+  background: none;
+  border-bottom: 0;
+}
+.about-me .twitter::before
+{
+  content: "";
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-image:url('pictures/twitter-logo.png');
+  background-size: cover;
+  margin-right: 0.5em;
+  margin-bottom: -0.5em;
+}
+</style>
 
 <!--
 Before we start, I would like to introduce myself and explain why
@@ -60,8 +162,9 @@ this topic has been chosen.
   width: 300px;
   margin-top: 1em;
   margin-bottom: 6em;
-  margin-right: 1em;
+  margin-right: 2em;
   border-radius: 50%;
+  margin-left: -3em;
 }
 </style>
 
