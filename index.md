@@ -53,10 +53,62 @@ style: |
     }
 ---
 
-# Component development with CSS in 2019 {#cover}
+# <span class="dev">Component development</span> <span class="css">with CSS</span> <span class="year">in 2019</span> {#Cover}
 
 <b>Varya Stepanova</b>, Design Systems Expert / [varya.me](http://varya.me) & [wonna.fi](http://wonna.fi)
 {: .author }
+
+<style>
+
+#Cover {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#Cover,
+#Cover h2,
+#Cover p
+ {
+  color: black;
+}
+
+#Cover h2 {
+  font-size: 55px;
+  margin-top: 0.25em;
+  line-height: 1em;
+  text-transform: capitalize;
+}
+
+#Cover h2 .dev {
+  display: block;
+  color: #38bcc2;
+}
+
+#Cover h2 .css {
+  font-size: 100px;
+  font-family: "Graphik Light";
+  display: block;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+#Cover h2 .year {
+  color: #ca4e1f;
+}
+
+#Cover .author {
+  margin-top: 225px;
+  text-align: right;
+}
+
+#Cover .event {
+  font-size: 0.5em;
+  text-align: right;
+  margin-top: 0;
+}
+
+</style>
 
 
 ## Me
