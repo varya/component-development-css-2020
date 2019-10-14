@@ -348,25 +348,13 @@ Communication matters.
 ## Heavy UI
 {: .heavy-ui .no-title }
 
+![](pictures/domik.png){: .cover }
+
 <!--
 This login form in the middle does not look as a massive component.
 Just 2 inputs, checkbox, button.
 Guess how much code is needed to represent it?
 -->
-
-<style>
-.heavy-ui:before {
-  display: block;
-  content: '';
-  background-image: url(pictures/domik.png);
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-</style>
 
 
 ## Heavy UI
@@ -1212,35 +1200,13 @@ networks accounts.
 ## Interface
 {: .no-title .interface }
 
-<style>
-.interface:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  background-image: url(pictures/bem/page.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-</style>
+![](pictures/bem/page.png){: .cover }
 
 
 ## Interface of blocks
 {: .no-title .interface-blocks }
 
-<style>
-.interface-blocks:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin-top: 20px;
-  background-image: url(pictures/bem/page-blocks.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-</style>
+![](pictures/bem/page-blocks.png){: .cover }
 
 
 ## Everything is a block
@@ -1357,23 +1323,12 @@ Making the selector more specific would not help, because we cannot rely on the 
 ## Modified block
 {: .no-title .modified-block }
 
+![](pictures/bem/site-footer-menu.png){: .cover }
+
 <!--
 Components are similar visually and  functionally.
 Good not to repeat ourselves but to reuse the code of the first component and provide some changes to it.
 -->
-
-<style>
-.modified-block:before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding-top: 20px;
-  background-image: url(pictures/bem/site-footer-menu.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-</style>
 
 
 ## Modifier
@@ -1524,8 +1479,8 @@ way would be to fix the problems itself.
 ## Modular CSS
 
 * CSS modules
-* JSS
 * Styled Components
+* and many more
 
 
 ## CSS modules
@@ -1678,82 +1633,6 @@ styles: {
 * No dead code elimination
 
 
-## JSS
-{: .slide--shout }
-
-![](pictures/jss.png){: .jss-logo }
-
-<style>
-.jss-logo {
-  width: 700px;
-}
-</style>
-
-
-## Oleg
-{: .oleg }
-
-<style>
-.shower.list .oleg,
-.oleg {
-  position: relative;
-  background-size: auto 640px;
-  background-position: 0;
-  background-repeat: no-repeat;
-  background-image: url('pictures/oleg-slobodskoi.jpeg');
-  background-color: black;
-}
-
-.oleg h2 {
-  position: absolute;
-  right: 200px;
-  top: 115px;
-  font-size: 55px;
-  color: white;
-  font-weight: bold;
-  text-shadow: 5px 10px 15px rgba(0,0,0,1);
-}
-</style>
-
-
-## JSS syntax
-
-```js
-export const styles = {
-  button: {
-    padding: '10px',
-    '&:hover': {
-      background: blue;
-    }
-  }
-}
-```
-
-
-## Injecting JSS into HTML
-
-```js
-import injectSheet from 'react-jss';
-import styles from './styles.js'
-
-const Button = ({ classes, children }) => (
-  <button className={classes.button}>
-    {children}
-  </button>
-)
-
-export default injectSheet(styles)(Button);
-```
-{: .code--size--m }
-
-
-## JSS pros and cons
-
-* Scoped isolated components
-* In the component file
-* No build step
-
-
 ## Why to write classes?
 {: .thinkful-cat }
 
@@ -1903,25 +1782,31 @@ render(
 > <figcaption><a href="https://www.styled-components.com/" target="_blank">www.styled-components.com</a></figcaption>
 
 
-## Component development with CSS in 2018
+## More to study
+
+### CSS-in-JS solutions
+
+[http://michelebertoli.github.io/css-in-js/](http://michelebertoli.github.io/css-in-js/)
+
+
+## Component development with CSS in 2019
 
 * Big CSS
 * Web Components
 * BEM
 * CSS modules
-* JSS
 * styled-components
 
 
 ## Thank you
 {: .thanks }
 
-Varya Stepanova, Intergalactico - Nordcloud Design Studio<br/>
+Varya Stepanova, Wonna Oy<br/>
 [@varya_en](https://twitter.com/varya_en){: .twitter }; on the web: [varya.me](http://varya.me){: .web }
 
 ### Slides
 
-### [varya.me/component-development-css-2018](http://varya.me/component-development-css-2018/)
+### [varya.me/component-development-css-2019](http://varya.me/component-development-css-2019/)
 
 ### Credits
 Roman Komarov, [@kizmarh](https://twitter.com/kizmarh);
