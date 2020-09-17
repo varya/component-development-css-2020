@@ -53,9 +53,9 @@ style: |
     }
 ---
 
-# <span class="dev">Component development</span> <span class="css">with CSS</span> <span class="year">in 2019</span> {#Cover}
+# <span class="dev">Component development</span> <span class="css">with CSS</span> <span class="year">in 2020</span> {#Cover}
 
-<b>Varya Stepanova</b>, Design Systems Expert / [varya.me](http://varya.me) & [wonna.fi](http://wonna.fi)
+<b>Varya Stepanova</b>, Design Systems Architech / [varya.me](http://varya.me)
 {: .author }
 
 <style>
@@ -98,7 +98,7 @@ style: |
 }
 
 #Cover .author {
-  margin-top: 225px;
+  margin-top: 252px;
   text-align: right;
 }
 
@@ -117,7 +117,7 @@ style: |
 ![](pictures/me.jpg){: .photo }
 
 ### Varya Stepanova
-<b>Design Systems Expert</b><br/>
+<b>Design Systems Architect</b><br/>
 
 * Design systems
 * UI libraries
@@ -135,7 +135,7 @@ style: |
 
 
 [@varya_en](https://twitter.com/varya_en){: .twitter } /
-[varya.me](http://varya.me) & [wonna.fi](http://wonna.fi) /
+[varya.me](http://varya.me) /
 [mail@varya.me](mailto:mail@varya.me)
 {: .contacts }
 
@@ -178,6 +178,7 @@ style: |
 .about-me .contacts {
   line-height: 1;
   font-size: 0.75em;
+  margin-top: 35px;
 }
 
 .about-me .twitter
@@ -1789,7 +1790,7 @@ render(
 [http://michelebertoli.github.io/css-in-js/](http://michelebertoli.github.io/css-in-js/)
 
 
-## Component development with CSS in 2019
+## Component development with CSS in 2020
 
 * Big CSS
 * Web Components
@@ -1801,17 +1802,20 @@ render(
 ## Thank you
 {: .thanks }
 
-Varya Stepanova, Wonna Oy<br/>
+Varya Stepanova, independent consultant on design systems<br/>
 [@varya_en](https://twitter.com/varya_en){: .twitter }; on the web: [varya.me](http://varya.me){: .web }
 
 ### Slides
 
-### [varya.me/component-development-css-2019](http://varya.me/component-development-css-2019/)
+#### [varya.me/component-development-css-2020](http://varya.me/component-development-css-2020/)
 
-### Credits
+#### Credits
+{: .credits-header}
+
 Roman Komarov, [@kizmarh](https://twitter.com/kizmarh);
 Andrey Okonetchnikov, [@okonetchnikov](https://twitter.com/okonetchnikov);
 Vadim Makeev, [@pepelsbey_](https://twitter.com/pepelsbey_).
+{: .credits}
 
 <style>
 .thanks h3 {
@@ -1837,5 +1841,11 @@ Vadim Makeev, [@pepelsbey_](https://twitter.com/pepelsbey_).
   background-size: cover;
   margin-right: 0.5em;
   margin-bottom: -0.5em;
+}
+.thanks .credits-header {
+  margin-top: 1.5em;
+}
+.thanks .credits {
+  font-size: 0.75em;
 }
 </style>
