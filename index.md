@@ -785,7 +785,7 @@ a new technology, a new standard which will hopefully solve the problems we cons
 * Shadow DOM
 * Custom Elements
 * HTML Templates
-* HTML Imports
+* <s>HTML Imports</s> (not supported any more)
 
 <!--
 Web Components is not another language but some additions into already existing standards.
@@ -833,7 +833,7 @@ I will show you in code what it all means.
 * [Native component](demo/video.html)
 * [Custom web component](demo/custom-button.html)
 * [Templates](demo/templates.html)
-* [HTML import](demo/html-import.html)
+* <s>HTML imports</s> (not supported any more)
 
 <!--
 These are a few pages I prepared for the lecture which demonstrate the concept.

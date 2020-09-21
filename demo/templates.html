@@ -2,16 +2,24 @@
   <head>
     <title>HTML templates</title>
     <script>
-      var ButtonPrototype = Object.create(HTMLElement.prototype);
-      ButtonPrototype.createdCallback = function() {
 
-        var tpl =document.querySelector('#my-button-tpl');
-        var clone = document.importNode(tpl.content, true);
-        this.createShadowRoot().appendChild(clone);
-      };
-      var MyButton = document.registerElement('my-button', {
-        prototype: ButtonPrototype
-      });
+      class MyButton extends HTMLElement {
+        constructor() {
+          // Always call super first in constructor
+          super();
+
+          // write element functionality in here
+
+          this.attachShadow({mode: 'open'});
+
+          var tpl =document.querySelector('#my-button-tpl');
+          var clone = document.importNode(tpl.content, true);
+
+          this.shadowRoot.append(clone);
+        }
+      }
+
+      customElements.define('my-button', MyButton);
     </script>
   </head>
   <body>

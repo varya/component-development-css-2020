@@ -7,19 +7,24 @@
       }
     </style>
     <script>
-      var ButtonPrototype = Object.create(HTMLElement.prototype);
-      ButtonPrototype.createdCallback = function() {
 
-        var shadow = this.createShadowRoot();
+      class MyButton extends HTMLElement {
+        constructor() {
+          // Always call super first in constructor
+          super();
 
-        var styles = '<style> input { background-color: green; }</style>';
-        var html = '<div class="my-button"><input type="button" value="Click me"/></div>';
+          // write element functionality in here
 
-        shadow.innerHTML = styles + html;
-      };
-      var MyButton = document.registerElement('my-button', {
-        prototype: ButtonPrototype
-      });
+          this.attachShadow({mode: 'open'});
+
+          var styles = '<style> input { background-color: green; }</style>';
+          var html = '<div class="my-button"><input type="button" value="Click me"/></div>';
+
+          this.shadowRoot.innerHTML = styles + html;
+        }
+      }
+
+      customElements.define('my-button', MyButton);
     </script>
   </head>
   <body>
