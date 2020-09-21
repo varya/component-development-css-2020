@@ -55,7 +55,7 @@ style: |
 
 # <span class="dev">Component development</span> <span class="css">with CSS</span> <span class="year">in 2020</span> {#Cover}
 
-<b>Varya Stepanova</b>, Design Systems Architech / [varya.me](http://varya.me)
+<b>Varya Stepanova</b>, Design Systems Architect / [varya.me](http://varya.me)
 {: .author }
 
 <style>
