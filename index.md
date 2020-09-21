@@ -878,22 +878,8 @@ Or you can use someone else's components as a library.
 -->
 
 
-## Web Components Status Quo
-{: .componentized }
-
-![](pictures/componentized.png)
-
-<!--
-The concept is new and not all the browsers support.
--->
-
-<style>
-
-.componentized img {
-  width: 100%;
-}
-
-</style>
+## [Can I use?](https://caniuse.com/?search=web%20components)
+{: .slide--shout .slide--azure }
 
 
 ## Web Components Polyfills
@@ -1077,66 +1063,36 @@ And the last new thing appeared was BEM, stands for Block, Element Modifier.
 It was created in 2009, then evoluated and had a long way to its popularity by now.
 -->
 
+## BEM creators
 
-## Vitaly<br/>Harisov
-{: .harisov }
+* ![](pictures/vitaly-harisov.jpg) Vitaly Harisov
+* ![](pictures/veged.jpg) Sergey Berezhnoy
+* and others
+{: .harisov-veged }
+
+<style>
+
+.harisov-veged img {
+  width: 150px;
+  margin-bottom: 1em;
+  vertical-align: middle;
+}
+.slide ul.harisov-veged li:before {
+  top: 70px;
+}
+.slide ul.harisov-veged li:last-child:before {
+  top: 0;
+}
+</style>
 
 <!--
 This is one of the main authors. Vitaly Harisov. He works for Yandex and heads the
 frontend development there.
--->
 
-<style>
-
-.shower.list .harisov,
-.harisov {
-  position: relative;
-  background-image: url(pictures/vitaly-harisov.jpg);
-  background-size: auto 640px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-.harisov h2 {
-  position: absolute;
-  right: 65px;
-  bottom: 200px;
-  font-size: 65px;
-  font-weight: bold;
-}
-
-</style>
-
-
-## Sergey<br/>Berezhnoy
-{: .veged }
-
-<!--
 Another co-author is Sergey Berezhnoy, who also works for Yandex.
 O was very lucky to work with them and be a member of the BEM team, so I can tell you
 a little bit more about it today.
 -->
-
-<style>
-
-.shower.list .veged,
-.veged {
-  position: relative;
-  background-image: url(pictures/veged.jpg);
-  background-size: auto 640px;
-  background-position: 85% 50%;
-  background-repeat: no-repeat;
-}
-
-.veged h2 {
-  position: absolute;
-  left: 100px;
-  top: 250px;
-  font-size: 65px;
-  font-weight: bold;
-}
-
-</style>
 
 
 ## BEM eco-system
@@ -1411,6 +1367,12 @@ styles: {
 }
 .styled-components-crew li:last-child {
   margin-top: 60px;
+}
+.slide ul.styled-components-crew li:before {
+  top: 70px;
+}
+.slide ul.styled-components-crew li:last-child:before {
+  top: 0;
 }
 </style>
 
