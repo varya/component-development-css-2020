@@ -814,10 +814,23 @@ I will show you in code what it all means.
 
 </style>
 
+## Inspect shadow dom
+{: .chrome-dev-tools }
+
+![](pictures/chrome-shadow-dom.png)
+
+
+<style>
+
+.chrome-dev-tools img {
+  width: 500px;
+}
+
+</style>
 
 ## Web Components
 
-* [Navite component](demo/video.html)
+* [Native component](demo/video.html)
 * [Custom web component](demo/custom-button.html)
 * [Templates](demo/templates.html)
 * [HTML import](demo/html-import.html)
